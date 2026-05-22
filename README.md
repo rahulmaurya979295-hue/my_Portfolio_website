@@ -1,14 +1,3 @@
-# Free Flio - Portfolio Template (Customized)
-
-This repository contains a customized copy of the Free Flio HTML5 portfolio template.
-
-- Live site: https://rahulmaurya979295-hue.github.io/my_Portfolio_website/
-- Entry point: index-minimal.html (index.html redirects to it)
-
-Changes made:
-- Added a profile image to the hero section and fixed asset paths.
-- Added GitHub Actions workflow to deploy to GitHub Pages.
-- Added index.html redirect, .gitignore, and this README.
 # 🚀 Rahul Maurya's AI-Powered Data Science Portfolio
 
 ## Overview
