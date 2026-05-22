@@ -1,0 +1,52 @@
+/* ============================================
+   NEW MINIMAL COLOR PALETTE UPDATE
+   Replace old vibrant colors with natural tones
+   ============================================ */
+
+/* COLOR REPLACEMENTS:
+   #6c63ff (old primary purple) → #2C3E50 (dark blue grey)
+   #f368e0 (old secondary pink) → #7F8C8D (soft grey)
+   #00d4ff (old accent cyan) → #A3BFFA (soft blue)
+   #ffffff (old bg) → #F9FAFB (off-white)
+   #333333 (old text) → #1A1A1A (darker text)
+   #e0e0e0 (old border) → #E5E7EB (light border)
+*/
+
+:root {
+    /* Primary Palette - Minimal & Natural */
+    --primary-color: #2C3E50;        /* Dark Blue Grey */
+    --primary-dark: #1A252F;          /* Darker shade for hover */
+    --primary-light: #3D4F63;         /* Lighter shade */
+    --secondary-color: #7F8C8D;       /* Soft Grey */
+    --secondary-light: #95A5A6;       /* Light Grey */
+    --accent-color: #A3BFFA;          /* Soft Blue */
+    --accent-dark: #8FA8E8;           /* Darker accent */
+    
+    /* Backgrounds & Surfaces */
+    --light-bg: #F9FAFB;              /* Off White */
+    --surface-bg: #FFFFFF;            /* Pure White for cards */
+    --dark-bg: #1A1A1A;               /* Dark background */
+    --dark-surface: #2D2D2D;          /* Dark card surface */
+    
+    /* Text Colors */
+    --text-dark: #1A1A1A;             /* Primary text */
+    --text-light: #F9FAFB;            /* Light text */
+    --text-muted: #7F8C8D;            /* Muted text */
+    
+    /* Borders & Dividers */
+    --border-color: #E5E7EB;          /* Light border */
+    --border-color-dark: #404040;     /* Dark border */
+    
+    /* Semantic Colors */
+    --success-color: #10b981;         /* Green - Success */
+    --warning-color: #F59E0B;         /* Amber - Warning */
+    --danger-color: #EF4444;          /* Red - Error */
+    
+    /* Effects & Transitions */
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+    --transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* END OF COLOR DEFINITIONS */
